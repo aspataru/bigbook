@@ -1,0 +1,307 @@
+[
+    {
+        "title": "IntelliJ IDEA 2017.1 EAP Extends Debugger with Async Stacktraces | IntelliJ IDEA Blog",
+        "link": "https://blog.jetbrains.com/idea/2017/02/intellij-idea-2017-1-eap-extends-debugger-with-async-stacktraces/",
+        "comment": "great features!"
+    },
+    {
+        "title": "Under the hood of the League Client’s Hextech UI",
+        "link": "https://engineering.riotgames.com/news/under-hood-league-client%E2%80%99s-hextech-ui",
+        "comment": "rich client app built using microservices... sounds crazy, but that's what these guys are doing!"
+    },
+    {
+        "title": "Java Community Oscars: The Top 10 Posts of 2016 - DZone Java",
+        "link": "https://dzone.com/articles/java-community-oscars-the-top-10-posts-of-2016?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava",
+        "comment": "I wanted to store this link somewhere... might as well share it!"
+    },
+    {
+        "title": "3 Misunderstandings about Code Review That Are Slowing You Down",
+        "link": "http://blog.teamtreehouse.com/3-misunderstandings-about-code-review-that-are-slowing-you-down",
+        "comment": "good point."
+    },
+    {
+        "title": "Moving persistent data out of Redis",
+        "link": "http://githubengineering.com/moving-persistent-data-out-of-redis/",
+        "comment": "architecture great again"
+    },
+    {
+        "title": "Finding Time to Become a Better Developer",
+        "link": "https://medium.freecodecamp.com/finding-time-to-become-a-better-developer-eebc154881b2#.1xkfbnuc3",
+        "comment": "take that time :)"
+    },
+    {
+        "title": "The Essential Java 9 Feature You Probably Never Heard Of - DZone Java",
+        "link": "https://dzone.com/articles/the-essential-java-9-feature-you-probably-never-he?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone%2Fjava",
+        "comment": "Very good news !"
+    },
+    {
+        "title": "REST in Peace: Microservices vs monoliths in real-life examples",
+        "link": "https://medium.freecodecamp.com/rest-in-peace-to-microservices-or-not-6d097b6c8279#.fsnesquzx",
+        "comment": "Good shot of wrap-up information"
+    },
+    {
+        "title": "7 cardinal sins of retrospectives",
+        "link": "https://medium.com/@sskorc/7-cardinal-sins-of-retrospectives-419364a258c3",
+        "comment": "not technical at all... but still something effective engineers should know !"
+    },
+    {
+        "title": "Harnessing Domain Driven Design in Distributed Systems Development - Part III - Voxxed",
+        "link": "https://www.voxxed.com/blog/2016/12/harnessing-domain-driven-design-in-distributed-systems-development-part-iii/",
+        "comment": "Next part of article on modelling your microservices"
+    },
+    {
+        "title": "Do You Really Have to Name Everything in Software?",
+        "link": "https://blog.jooq.org/2016/12/15/do-you-really-have-to-name-everything-in-software/",
+        "comment": "good argumentation against blind refactorings that are supposed to give a meaningful name to something, but really don't help that much"
+    },
+    {
+        "title": "Declarative Programming With Speedment 3.0 - DZone Java",
+        "link": "https://dzone.com/articles/declarative-programming-with-speedment-30?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava",
+        "comment": "if this speedment thing is as powerful as they say, it is something to take a look at!"
+    },
+    {
+        "title": "SonarQube  » Cognitive Complexity, Because Testability != Understandability",
+        "link": "http://www.sonarqube.org/cognitive-complexity-because-testability-understandability/",
+        "comment": "I'll like to see that in action"
+    },
+    {
+        "title": "La société genevoise SonarSource lève 45 millions de dollars",
+        "link": "http://www.ictjournal.ch/news/2016-11-30/la-societe-genevoise-sonarsource-leve-45-millions-de-dollars",
+        "comment": "food for thoughts"
+    },
+    {
+        "title": "How Much Does A New Feature Cost?",
+        "link": "https://medium.com/@johnpcutler/how-much-does-a-new-feature-cost-f93c82bf638f#.ko5zv3a82",
+        "comment": "Can you point me out which of those points that are taken into account at work?"
+    },
+    {
+        "title": "12 Signs You’re Working in a Feature Factory",
+        "link": "https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2#.ivl55bu1h",
+        "comment": "Makes me think about what we do at work"
+    },
+    {
+        "title": "Good naming is a process, not a single step",
+        "link": "http://arlobelshee.com/good-naming-is-a-process-not-a-single-step/",
+        "comment": "I found this article linked from an earlier post in the group. I think it makes a good point about improving legacy code through better naming, and in an iterative way."
+    },
+    {
+        "title": "The Way of the Lambda and removeIf() - DZone Java",
+        "link": "https://dzone.com/articles/the-way-of-the-lambda-and-removeif?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava",
+        "comment": "a feature of Java 8 that is not well known, but probably should!"
+    },
+    {
+        "title": "Taking Ownership Is The Most Effective Way to Get What You Want",
+        "link": "http://www.theeffectiveengineer.com/blog/take-ownership-of-your-goals",
+        "comment": "eye opener."
+    },
+    {
+        "title": "SonarQube  » SonarQube 6.x series: Focused and Efficient",
+        "link": "http://www.sonarqube.org/sonarqube-6-x-series-focused-and-efficient/",
+        "comment": "promising news for code analysis!"
+    },
+    {
+        "title": "Getting beyond MVP",
+        "link": "https://blog.acolyer.org/2016/11/01/getting-beyond-mvp/amp/",
+        "comment": "Nice approach to get back in control with smelly code."
+    },
+    {
+        "title": "How to design APIs that don’t suck",
+        "link": "https://medium.freecodecamp.com/https-medium-com-anupcowkur-how-to-design-apis-that-dont-suck-922d864365c9",
+        "comment": "nothing new or eye opening, but these hints are all very valid, and each of them reminds me of past issues"
+    },
+    {
+        "title": "How to Grow from Being Average to a 10x Engineer",
+        "link": "http://www.theeffectiveengineer.com/blog/how-to-become-a-10x-engineer?utm_medium=email&utm_source=the-effective-engineer&utm_campaign=rss-email",
+        "comment": "Not really technical, buy totally matters :)"
+    },
+    {
+        "title": "What Do Developers Really Get Paid To Do? – Nulogy",
+        "link": "https://medium.com/nulogy/what-do-developers-really-get-paid-to-do-cd3cd098c229",
+        "comment": "A bit cheesy, but still an interesting read, that puts things in perspective."
+    },
+    {
+        "title": "10 Modern Software Over-Engineering Mistakes",
+        "link": "https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8#.787bq28rs",
+        "comment": "this article matches very much with most of the stuffs I hear when talking about technical leadership. Really cool advices"
+    },
+    {
+        "title": "A Hidden jOOQ Gem: Foreach Loop Over ResultQuery - DZone Java",
+        "link": "https://dzone.com/articles/a-hidden-jooq-gem-foreach-loop-over-resultquery?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava",
+        "comment": "Good tricks to know"
+    },
+    {
+        "title": "From Java to Go, and Back Again - OpenCredo",
+        "link": "https://opencredo.com/java-go-back/",
+        "comment": "Don't know what to say about this one, but you should read it :)"
+    },
+    {
+        "title": "Journey to HTTP/2 · @kamranahmedse",
+        "link": "http://kamranahmed.info/blog/2016/08/13/http-in-depth/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more",
+        "comment": "A must read!"
+    },
+    {
+        "title": "Why Uber Engineering Switched from Postgres to MySQL",
+        "link": "https://eng.uber.com/mysql-migration/",
+        "comment": "If you like gory details on databases internals, this article is for you :)"
+    },
+    {
+        "title": "When to Choose SQL and When to Choose NoSQL",
+        "link": "https://blog.jooq.org/2016/09/28/when-to-choose-sql-and-when-to-choose-nosql/",
+        "comment": "Nice arguments for traditional relational databases. A good read to calm your NoSQL envy :)"
+    },
+    {
+        "title": "How it feels to learn JavaScript in 2016",
+        "link": "https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f",
+        "comment": "Funny overview of what it means to build a front end app today. Probably a good introduction to sq up :p"
+    },
+    {
+        "title": "Why You Should Design Your Database to Optimise for Statistics",
+        "link": "https://blog.jooq.org/2016/10/05/why-you-should-design-your-database-to-optimise-for-statistics/",
+        "comment": "Explanations on the impact of data type choices for the query optimizer. The kind of stuff that may cause your query to be very fast... Or very slow."
+    },
+    {
+        "title": "Harnessing Domain Driven Design in Distributed Systems Development - Part II - Voxxed",
+        "link": "https://www.voxxed.com/blog/2016/10/harnessing-domain-driven-design-in-distributed-systems-development-part-ii/",
+        "comment": "Second part of domain driven design article from voxxed"
+    },
+    {
+        "title": "Building a Modern Bank Backend",
+        "link": "https://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/",
+        "comment": "The whole point now is how to setup service discovery"
+    },
+    {
+        "title": "The Morning Paper on Operability",
+        "link": "https://blog.acolyer.org/2016/09/21/the-morning-paper-on-operability/amp/",
+        "comment": ""
+    },
+    {
+        "title": "Inheritance Is a Procedural Technique for Code Reuse - DZone Java",
+        "link": "https://dzone.com/articles/inheritance-is-a-procedural-technique-for-code-reu?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava",
+        "comment": ""
+    },
+    {
+        "title": "The Riot Games API: Fulfilling Zuul's Destiny",
+        "link": "http://engineering.riotgames.com/news/riot-games-api-fulfilling-zuuls-destiny",
+        "comment": "Awesome story about finding out why an HTTP service did not perform as well as expected in prod. Lots of things to learn there!"
+    },
+    {
+        "title": "Data on the Outside versus Data on the Inside",
+        "link": "https://blog.acolyer.org/2016/09/13/data-on-the-outside-versus-data-on-the-inside/amp/",
+        "comment": ""
+    },
+    {
+        "title": "Harnessing Domain Driven Design in Distributed Systems Development - Part I - Voxxed",
+        "link": "https://www.voxxed.com/blog/2016/08/harnessing-domain-driven-design-distributed-systems-development-part-i/",
+        "comment": ""
+    },
+    {
+        "title": "The Netflix Tech Blog: Engineering Trade-Offs and The Netflix API Re-Architecture",
+        "link": "http://techblog.netflix.com/2016/08/engineering-trade-offs-and-netflix-api.html",
+        "comment": ""
+    },
+    {
+        "title": "The Art of Closing",
+        "link": "https://blog.jessfraz.com/post/the-art-of-closing/",
+        "comment": "Also mostly applies to code reviews and internal contributions. Interesting communication hints!"
+    },
+    {
+        "title": "Distributed delay queues based on Dynomite",
+        "link": "http://techblog.netflix.com/2016/08/distributed-delay-queues-based-on.html?m=1",
+        "comment": ""
+    },
+    {
+        "title": "Forget Technical Debt — Here's How to Build Technical Wealth",
+        "link": "http://firstround.com/review/forget-technical-debt-heres-how-to-build-technical-wealth/",
+        "comment": "Live every aspect off that article! Thanks to Stéphane for sharing!"
+    },
+    {
+        "title": "Java Concurrency ReentrantLock - DZone Java",
+        "link": "https://dzone.com/articles/java-concurrency-reentrant-lock-1?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava",
+        "comment": "Simple and quick reminder"
+    },
+    {
+        "title": "Microservices: Real Architectural Patterns",
+        "link": "https://medium.com/@skamille/microservices-real-architectural-patterns-68bd83bbb6cd",
+        "comment": "Sounds familiar?"
+    },
+    {
+        "title": "Using Excel As Source For Unit Tests : Adam Bien's Weblog",
+        "link": "http://www.adam-bien.com/roller/abien/entry/using_excel_as_source_for",
+        "comment": "Interesting idea. This might be a simple and effective alternative to full fledged behavior driven testing."
+    },
+    {
+        "title": "How Does Google do Planet-Scale Engineering for a Planet-Scale Infrastructure? - High Scalability -",
+        "link": "http://highscalability.com/blog/2016/7/18/how-does-google-do-planet-scale-engineering-for-a-planet-sca.html",
+        "comment": ""
+    },
+    {
+        "title": "Putting the M in MVP — Free Code Camp",
+        "link": "https://medium.freecodecamp.com/putting-the-m-in-mvp-71e036034ed9",
+        "comment": "I don't agree with everything in there, but I like the brutal pragmatism used by the writer."
+    },
+    {
+        "title": "How to conquer legacy code — Free Code Camp",
+        "link": "https://medium.freecodecamp.com/conquer-legacy-code-f9e23a6ab758",
+        "comment": "Great insights on legacy code. My preferred one : don't judge the code, every ugly line is probably there for a reason."
+    },
+    {
+        "title": "Rightsize your JavaEE Applications | WildFly Swarm",
+        "link": "http://wildfly-swarm.io/",
+        "comment": "Not sure how good this is, but it should be considered if going into the direction of embedded web servers"
+    },
+    {
+        "title": "You don't talk about refactoring club",
+        "link": "https://blog.frankel.ch/dont-talk-about-refactoring-club/",
+        "comment": "Good point."
+    },
+    {
+        "title": "SonarQube Governance 1.1 Released | SonarSource",
+        "link": "http://www.sonarsource.com/2016/07/27/sonarqube-governance-1-1-released/",
+        "comment": "Utile?"
+    },
+    {
+        "title": "The Seven Deadly Sins of Microservices (Redux)",
+        "link": "https://opencredo.com/the-seven-deadly-sins-of-microservices-redux/",
+        "comment": ""
+    },
+    {
+        "title": "The Java JIT Compiler is Darn Good at Optimization",
+        "link": "https://blog.jooq.org/2016/07/19/the-java-jit-compiler-is-darn-good-in-optimization/",
+        "comment": "JIT compiler rocks!"
+    },
+    {
+        "title": "Faster Mutation Testing",
+        "link": "https://blog.frankel.ch/faster-mutation-testing/",
+        "comment": "Mutation testing is actually straightforward! I always thought it was science fiction oO"
+    },
+    {
+        "title": "Pairing, Are You Doing it Wrong?",
+        "link": "https://www.thoughtworks.com/insights/blog/pairing-are-you-doing-it-wrong",
+        "comment": "Interesting hints on pair programming. Kind of thinking I could do better on that front..."
+    },
+    {
+        "title": "Three Proven Ways To Navigate Uncertainty — The Ready",
+        "link": "https://medium.com/the-ready/three-proven-ways-to-navigate-uncertainty-556f3dee0d80",
+        "comment": "Never stop experimenting"
+    },
+    {
+        "title": "The Conjoined Triangles of Senior-Level Development",
+        "link": "http://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html",
+        "comment": ""
+    },
+    {
+        "title": "The Agile Coach role at Spotify | Joakim Sundén",
+        "link": "http://joakimsunden.com/2013/04/the-agile-coach-role-at-spotify/",
+        "comment": ""
+    },
+    {
+        "title": "10 JDK 7 Features to Revisit, Before You Welcome Java 8",
+        "link": "http://javarevisited.blogspot.ch/2014/04/10-jdk-7-features-to-revisit-before-you.html?m=1",
+        "comment": ""
+    },
+    {
+        "title": "Javarevisited: Blog about Java Programming Tutorials, Examples, Design Patterns, Interview Questions and Answers, FIX Protocol, Tibco RV messaging, UNIX and Linux Commands, XML, SQL, MySQL, Oracle, jQuery, JavaScript,HTML, Multithreading, Collection, Error and Exception, Debugging, Best Practices and Practical tips from my experience.",
+        "link": "http://javarevisited.blogspot.ch/",
+        "comment": "joli couverture"
+    }
+]
