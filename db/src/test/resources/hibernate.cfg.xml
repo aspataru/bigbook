@@ -39,6 +39,8 @@
 
         <mapping resource="hbm/Product.hbm.xml"/>
 
+        <mapping class="da.FundDocument"/>
+
     </session-factory>
 
 </hibernate-configuration>
