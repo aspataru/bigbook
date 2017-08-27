@@ -12,6 +12,7 @@
     <modules>
         <module>slack-uploader</module>
         <module>db</module>
+        <module>rest</module>
     </modules>
 
 </project>

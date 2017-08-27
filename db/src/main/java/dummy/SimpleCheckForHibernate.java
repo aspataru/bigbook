@@ -1,4 +1,4 @@
-package postgres;
+package dummy;
 
 import da.FundDocument;
 import da.Product;
@@ -8,23 +8,18 @@ import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.junit.BeforeClass;
-import org.junit.Test;
 
 import java.math.BigDecimal;
 import java.util.List;
-
-import static org.assertj.core.api.Assertions.assertThat;
 
 /**
  * Created by aspataru on 7/9/17.
  */
 @Slf4j
-public class TestForHibernate {
+public class SimpleCheckForHibernate {
 
     private static SessionFactory sessionFactory;
 
-    @BeforeClass
     public static void initSessionFactory() throws Exception {
         // A SessionFactory is set up once for an application!
         final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
@@ -40,12 +35,6 @@ public class TestForHibernate {
         }
     }
 
-    @Test
-    public void sessionFactoryShouldNotBeNull() {
-        assertThat(sessionFactory).isNotNull();
-    }
-
-    @Test
     public void shouldInsertProducts() throws Exception {
         Session session = sessionFactory.openSession();
         session.beginTransaction();
@@ -60,8 +49,6 @@ public class TestForHibernate {
             log.info("Found fund document: {}", fundDocument);
         }
         session.close();
-
-        assertThat(result).hasSize(1);
     }
 
 }

@@ -49,12 +49,6 @@
             <version>${junit.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.github.geowarin</groupId>
-            <artifactId>docker-junit-rule</artifactId>
-            <version>${docker-junit-rule.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
