@@ -12,13 +12,8 @@
     <artifactId>db</artifactId>
 
     <properties>
-        <junit.version>4.12</junit.version>
         <docker-junit-rule.version>1.1.0</docker-junit-rule.version>
-        <lombok.version>1.16.14</lombok.version>
-        <slf4j-api.version>1.7.24</slf4j-api.version>
-        <slf4j-simple.version>1.7.19</slf4j-simple.version>
         <hibernate-core.version>5.0.12.Final</hibernate-core.version>
-        <assertj-core.version>3.6.2</assertj-core.version>
         <postgresql.version>9.4-1200-jdbc41</postgresql.version>
     </properties>
 
@@ -32,32 +27,6 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>${postgresql.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>${slf4j-api.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>${slf4j-simple.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.assertj</groupId>
-            <artifactId>assertj-core</artifactId>
-            <version>${assertj-core.version}</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 

@@ -14,7 +14,8 @@ import javax.ws.rs.core.MediaType;
 @Path("myresource")
 public class MyResource {
 
-    private final ProductServiceImpl productService = new ProductServiceImpl(new ProductDao());
+    // TODO uncomment and finish
+    //private final ProductServiceImpl productService = new ProductServiceImpl(new ProductDao());
 
     /**
      * Method handling HTTP GET requests. The returned object will be sent
@@ -25,7 +26,7 @@ public class MyResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
-        return productService.getById("Test").toString();
-        //return "Hello, Heroku!";
+        //return productService.getById("Test").toString();
+        return "Hello, Heroku!";
     }
 }
