@@ -25,6 +25,7 @@
         <module>db</module>
         <module>rest</module>
         <module>rx</module>
+        <module>headfirst</module>
     </modules>
 
     <dependencies>
