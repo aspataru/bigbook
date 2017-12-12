@@ -26,6 +26,7 @@
         <module>rest</module>
         <module>rx</module>
         <module>headfirst</module>
+        <module>websocket</module>
     </modules>
 
     <dependencies>
