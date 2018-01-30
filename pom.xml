@@ -27,6 +27,7 @@
         <module>rx</module>
         <module>headfirst</module>
         <module>websocket</module>
+        <module>gotchas</module>
     </modules>
 
     <dependencies>
