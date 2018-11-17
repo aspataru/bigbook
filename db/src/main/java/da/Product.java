@@ -24,7 +24,7 @@ public class Product {
 
     @Id
     private String isin;
-    private String cfid;
+    private String cfi;
     private String name;
     @Column(name = "LAST_PRICE")
     private BigDecimal lastPrice;

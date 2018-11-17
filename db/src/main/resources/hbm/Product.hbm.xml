@@ -14,7 +14,7 @@
 
     <class name="Product" table="PRODUCTS">
         <id name="isin" column="ISIN"/>
-        <property name="cfid"/>
+        <property name="cfi"/>
         <property name="name"/>
         <property name="lastPrice"/>
     </class>
