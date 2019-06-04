@@ -9,21 +9,21 @@ import java.io.FileReader;
 @RequiredArgsConstructor
 public class FileStreamerDemo {
 
-    private final String filePath;
+	private final String filePath;
 
-    public long countLinesUsingRxJava() {
-        Flowable<String> source = Flowable.using(
-                () -> new BufferedReader(new FileReader(filePath)),
-                reader -> Flowable.fromIterable(() -> reader.lines().iterator()),
-                BufferedReader::close
-        );
+	public long countLinesUsingRxJava() {
+		Flowable<String> source = Flowable.using(
+				() -> new BufferedReader(new FileReader(filePath)),
+				reader -> Flowable.fromIterable(() -> reader.lines().iterator()),
+				BufferedReader::close
+		);
 
-        return source
-                // .subscribeOn(Schedulers.computation())
-                // .observeOn(Schedulers.io())
-                // .subscribe(System.out::println, Throwable::printStackTrace);
-                .count()
-                .blockingGet();
-    }
+		return source
+				// .subscribeOn(Schedulers.computation())
+				// .observeOn(Schedulers.io())
+				// .subscribe(System.out::println, Throwable::printStackTrace);
+				.count()
+				.blockingGet();
+	}
 
 }
