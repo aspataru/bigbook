@@ -28,6 +28,7 @@
         <module>headfirst</module>
         <module>websocket</module>
         <module>gotchas</module>
+        <module>core</module>
     </modules>
 
     <dependencies>
