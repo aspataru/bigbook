@@ -26,4 +26,15 @@ public class TestCompletableFutures {
 		assertTrue(future.get() % 2 == 0);
 	}
 
+	@Test
+	public void should_Find_Even_Integer_Not_Using_Assertions() {
+		Future<Boolean> succeedInFindingAnEvenInteger = CompletableFutures.slowlyFindAnEvenIntegerAndCheckIt();
+		assertNotNull(succeedInFindingAnEvenInteger);
+		await()
+				.atMost(Duration.FIVE_SECONDS)
+				.until(succeedInFindingAnEvenInteger::get);
+
+	}
+
+
 }
