@@ -20,11 +20,7 @@ class CompletableFutures {
 
 		Executors.newSingleThreadExecutor().submit(
 				() -> {
-					int number = ODD_INITIAL_VALUE;
-					while (!isEven(number)) {
-						log.info("Still searching, {} is not ok", number);
-						number = slowlyGuessANumber();
-					}
+					int number = keepSearchingForANumber();
 					completableFuture.complete(number);
 					return null;
 				});
@@ -33,16 +29,31 @@ class CompletableFutures {
 
 	static Future<Boolean> slowlyFindAnEvenIntegerAndCheckIt() {
 		CompletableFuture<Integer> findEven = CompletableFuture
-				.supplyAsync(() -> {
-					int number = ODD_INITIAL_VALUE;
-					while (!isEven(number)) {
-						log.info("Still searching, {} is not ok", number);
-						number = slowlyGuessANumber();
-					}
-					return number;
-				});
+				.supplyAsync(CompletableFutures::keepSearchingForANumber);
 		return findEven.thenCompose(integer -> CompletableFuture.supplyAsync(() -> isEven(integer)));
+	}
 
+	static Future<Integer> panickyFindEvenIntegerWithFallback() {
+		return CompletableFuture.supplyAsync(CompletableFutures::guessEvenNumberAndPanicIfNotFound)
+				.handle((integer, throwable) -> integer == null ? 0 : integer);
+	}
+
+	private static int keepSearchingForANumber() {
+		int number = ODD_INITIAL_VALUE;
+		while (!isEven(number)) {
+			log.info("Still searching, {} is not ok", number);
+			number = slowlyGuessANumber();
+		}
+		return number;
+	}
+
+	private static int guessEvenNumberAndPanicIfNotFound() {
+		int number = slowlyGuessANumber();
+		if (!isEven(number)) {
+			log.error("I failed!");
+			throw new IllegalStateException("I failed");
+		}
+		return number;
 	}
 
 	private static int slowlyGuessANumber() {
@@ -58,7 +69,6 @@ class CompletableFutures {
 	private static boolean isEven(int number) {
 		return number % 2 == 0;
 	}
-
 
 }
 
