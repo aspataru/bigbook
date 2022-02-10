@@ -14,7 +14,7 @@
     <properties>
         <docker-junit-rule.version>1.1.0</docker-junit-rule.version>
         <hibernate-core.version>5.4.2.Final</hibernate-core.version>
-        <postgresql.version>9.4-1200-jdbc41</postgresql.version>
+        <postgresql.version>42.2.25</postgresql.version>
     </properties>
 
     <dependencies>
